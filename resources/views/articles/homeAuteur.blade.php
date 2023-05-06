@@ -88,7 +88,7 @@
         </ul>
     </div>
 @endif
-    <form action="{{url('/ajouterArticle')}}" method="get" enctype="multipart/form-data">
+    <form action="{{url('/ajouterArticle')}}" method="post" enctype="multipart/form-data">
         @csrf
 
         <div class="form-group">
