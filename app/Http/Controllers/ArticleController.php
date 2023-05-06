@@ -27,15 +27,13 @@ class ArticleController extends Controller
         
         // Vérification de l'existence du fichier image
         if ($request->hasFile('image')) {
+            $path=$request->file('image')->store('public/images');
 
-            // Récupération du fichier image
-            $image = $request->file('image');
-          
-            $filename= uniqid(). '.' . $image->getClientOriginalExtension();
-            $image->move(public_path('uploads'),$filename);
-            $imagepath=public_path('uploads/' . $filename);
+            $filename= basename($path);
+            $file=storage_path('app/' . $path);
+            $contents=file_get_contents($file);
             // Conversion de l'image en base64
-            $image = base64_encode(file_get_contents($imagepath));
+            $image = base64_encode($contents);
         }
     
         // Insertion de l'article dans la base de données
