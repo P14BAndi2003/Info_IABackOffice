@@ -6,9 +6,9 @@
     <title>Backoffice de IA_Info</title>
 
     <!-- Site favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo asset('assets/vendors/images/apple-touch-icon.png')?>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo asset('assets/vendors/images/favicon-32x32.png')?>">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo asset('assets/vendors/images/favicon-16x16.png')?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/vendors/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/vendors/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/vendors/images/favicon-16x16.png">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -16,9 +16,9 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="<?php echo asset('assets/vendors/styles/core.css')?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo asset('assets/vendors/styles/icon-font.min.css')?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo asset('assets/vendors/styles/style.css')?>">
+	<link rel="stylesheet" type="text/css" href="assets/vendors/styles/core.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendors/styles/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendors/styles/style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
@@ -36,7 +36,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6 col-lg-7">
-                <img src="<?php echo asset('assets/vendors/images/login-page-img.png')?>" alt="">
+                <img src="assets/vendors/images/login-page-img.png" alt="">
             </div>
             <div class="col-md-6 col-lg-5">
                 <div class="login-box bg-white box-shadow border-radius-10">
@@ -49,7 +49,7 @@
                             <div class="btn-group btn-group-toggle" data-toggle="buttons">
                                 <label class="btn active" disabled="true">
 
-                                    <div class="icon"><img src="<?php echo asset('assets/vendors/images/briefcase.svg')?>" class="svg" alt=""></div>
+                                    <div class="icon"><img src="assets/vendors/images/briefcase.svg" class="svg" alt=""></div>
                                     <span>Je suis</span>
                                     un Admin
                                 </label>
@@ -103,9 +103,9 @@
     </div>
 </div>
 <!-- js -->
-<script src="<?php echo asset('assets/vendors/scripts/core.js')?>"></script>
-    <script src="<?php echo asset('assets/vendors/scripts/script.min.js')?>"></script>
-    <script src="<?php echo asset('assets/vendors/scripts/process.js')?>"></script>
-    <script src="<?php echo asset('assets/vendors/scripts/layout-settings.js')?>"></script>
+<script src="assets/vendors/scripts/core.js"></script>
+    <script src="assets/vendors/scripts/script.min.js"></script>
+    <script src="assets/vendors/scripts/process.js"></script>
+    <script src="assets/vendors/scripts/layout-settings.js"></script>
 </body>
 </html>
