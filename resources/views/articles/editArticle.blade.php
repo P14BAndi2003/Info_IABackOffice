@@ -88,7 +88,7 @@
         </ul>
     </div>
 @endif
-    <form action="{{url('/confirmerModifier')}}" method="POST" enctype="multipart/form-data">
+    <form action="{{url('/confirmerModifier')}}" method="get" enctype="multipart/form-data">
         @csrf
 
         <div class="form-group">
