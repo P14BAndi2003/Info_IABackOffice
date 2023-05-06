@@ -43,7 +43,7 @@
                     <div class="login-title">
                         <h2 class="text-center text-primary">Connexion du Backoffice</h2>
                     </div>
-                    <form action="{{url('/traiterlogAdmin')}}" method="post">
+                    <form action="{{url('/traiterlogAdmin')}}" method="get">
                     @csrf
                         <div class="select-role">
                             <div class="btn-group btn-group-toggle" data-toggle="buttons">
