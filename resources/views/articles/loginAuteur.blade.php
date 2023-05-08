@@ -66,13 +66,13 @@
     </div>
 @endif
                         <div class="input-group custom">
-                            <input type="text" name="email" class="form-control form-control-lg" placeholder="Email">
+                            <input type="text" name="email" class="form-control form-control-lg" value="andi@gmail.com" placeholder="Email">
                             <div class="input-group-append custom">
                                 <span class="input-group-text"><i class="icon-copy dw dw-user1"></i></span>
                             </div>
                         </div>
-                        <div class="input-group custom">
-                            <input type="password" name="mdp" class="form-control form-control-lg" placeholder="**********" required>
+                        <div class="input-group custom"> 
+                            <input type="password" name="mdp" class="form-control form-control-lg" value="andi1234" placeholder="**********" required>
                             <div class="input-group-append custom">
                                 <span class="input-group-text"><i class="dw dw-padlock1"></i></span>
                             </div>
